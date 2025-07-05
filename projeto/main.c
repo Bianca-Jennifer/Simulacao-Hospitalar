@@ -30,17 +30,17 @@ int main() {
 
     imprimir_tabela(&tabela);
 
-    remove_inicio(&deque);
+    //remove_inicio(&deque);
     printf("\nRemovido\n");
     imprime_deque(&deque);
-    remove_final(&deque);
+    //remove_final(&deque);
     printf("\nRemovido\n");
     imprime_deque(&deque);
     printf("\n");
 
     
     //Verificando funcionamento da lista sequencial
-    /*Lista_de_leitos l;
+    Lista_de_leitos l;
     inicializa_lista(&l);
     printf("Lista inicializada\n");
     printf("QUANTIDADE: %d\n", tamanho(&l));
@@ -50,9 +50,11 @@ int main() {
     printf("QUANTIDADE: %d\n", tamanho(&l));
     exibe_lista(&l);
 
-    printf("Removendo primeiro elemento...\n");
-    remover_leito(&l,l.leitos[0]);
-    exibe_lista(&l);*/
+    printf("Removendo algum paciente...\n");
+    //Testando remoção ao sortear  e quantidade e pacientes que receberão alta;
+    remover_leito(&l);
+    printf("\n");
+    exibe_lista(&l);
 
     //imprimir_tabela(&tabela);
 
