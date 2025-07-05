@@ -28,27 +28,24 @@ int main() {
     imprime_deque(&deque);
     printf("\n");
     imprimir_tabela(&tabela);
-    
-    
-    //Verificando funcionamento da lista sequencial
-    Lista_de_leitos l;
-    inicializa_lista(&l);
-    printf("Lista inicializada\n");
-    printf("QUANTIDADE: %d\n", tamanho(&l));
-    printf("Adicionando...\n");
-    inserir_leito(&l, &deque);
-    exibe_lista(&l);
-    imprime_deque(&deque);
 
-    inserir_leito(&l, &deque);
-    exibe_lista(&l);
-    imprime_deque(&deque);
 
-    printf("QUANTIDADE: %d\n", tamanho(&l));
+    //remove_inicio(&deque);
+    printf("\nRemovido\n");
+    imprime_deque(&deque);
+    //remove_final(&deque);
+    printf("\nRemovido\n");
+    imprime_deque(&deque);
+    printf("\n");
+
+
+   
+
 
     /*printf("Removendo primeiro elemento...\n");
     remover_leito(&l,l.leitos[0]);
     exibe_lista(&l);*/
+
 
     //imprimir_tabela(&tabela);
 
