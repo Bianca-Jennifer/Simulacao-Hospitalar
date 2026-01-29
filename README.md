@@ -1,6 +1,7 @@
 # Simulação de Fluxo Hospitalar com Estruturas de Dados
 
-Este projeto foi desenvolvido como **atividade avaliativa da disciplina Estruturas de Dados Básicas I (EDB 1)**, com o objetivo de aplicar, na prática, conceitos fundamentais de estruturas de dados por meio de uma simulação computacional.
+Este projeto foi desenvolvido como **atividade avaliativa da disciplina Estruturas de Dados Básicas I (EDB 1)**, no curso de **Tecnologia da Informação** da **Universidade Federal do Rio Grande do Norte (UFRN)**, em **dupla**, com o objetivo de aplicar, na prática, conceitos fundamentais de estruturas de dados por meio de uma simulação computacional.
+
 
 A aplicação simula um **ambiente hospitalar automatizado**, controlando o fluxo de pacientes desde a triagem até a alta hospitalar, utilizando **tabela hash, deque e pilha**.
 
